@@ -10,5 +10,3 @@ A branch is a version of the main file which contains the original code plus any
 Commits are saved changes that have been made to branches, sort of like checkpoint saves in video games.
 * What is a merge conflict?
 A merge conflict happens when Git is unable automatically merge files itself.
-
-Hi.
