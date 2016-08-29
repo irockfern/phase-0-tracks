@@ -11,4 +11,4 @@ Commits are saved changes that have been made to branches, sort of like checkpoi
 * What is a merge conflict?
 A merge conflict happens when Git is unable automatically merge files itself.
 
-HELLO
+HELLO WORLD
