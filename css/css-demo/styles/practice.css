@@ -1,0 +1,21 @@
+#contact-info {
+	font-size: .8em;
+}
+
+.job {
+	background: #e9e5dc;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.unorderedList {
+	font-size: .8em;
+}
+
+ul li{
+	color: #008000;
+}
+
+#personal-objective:hover {
+	background-color: blue;
+}
