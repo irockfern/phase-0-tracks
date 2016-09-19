@@ -1,0 +1,31 @@
+RELEASE 0
+- push up arrow button if going up.
+- push down arrow button if going down.
+	- wait for  doors to open
+	- walk into elevator
+	- turn to face level selector
+- if up arrow button is pushed:
+	- choose a level higher than current level
+- otherwise:
+	- choose a level lower than curent level
+- wait for doors to close
+- wait for level selector to ding
+- wait for doors to open
+- exit elevator
+
+RELEASE 1 (Getting Gas)
+- park your car next to the gas pump
+- turn the car off and exit the car
+- insert your debit card
+- unitl your pin is correct:
+	- enter a pin
+- if the pin is correct:
+	- select a gas grade
+	- insert the nozzle into your car
+	- pump gas
+- if pump stops:
+	- remove nozzle from car
+	- replace nozzle
+	- enter car and turn car on
+- otherwise:
+	- continue pumping gas
