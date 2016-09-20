@@ -1,6 +1,8 @@
 puts "How many employees will be processed?"
 processed = gets.chomp.to_i
+input = processed -=1
 
+while input > 0
 puts "What is your name?"
 name = gets.chomp
 
@@ -35,4 +37,4 @@ elsif name == "Drake Cula" || name == "Tu Fang"
 else
 	puts "Results inconclusive."
 end
-
+end
