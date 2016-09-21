@@ -19,3 +19,11 @@ if current_age < 18
 	puts emphasize("That makes you a minor")
 else puts emphasize("That makes you a legal adult")
 end
+
+# puts "Say something:"
+# input = gets.chomp.to_i
+
+# while input > 0
+# 	puts "I'm the loop"
+# 	input = input -=1
+# end
