@@ -20,10 +20,30 @@ if current_age < 18
 else puts emphasize("That makes you a legal adult")
 end
 
-# puts "Say something:"
-# input = gets.chomp.to_i
+puts "Say something:"
+input = gets.chomp.to_i
 
-# while input > 0
-# 	puts "I'm the loop"
-# 	input = input -=1
-# end
+while input > 0
+	puts "I'm the loop"
+	input = input -=1
+end
+
+# This program will keep encouraging you until you say
+# "I am doing a great job!"
+# Notice how the debugging statements make it easy
+# to see what's going on.
+
+loop_counter = 0
+
+loop do
+    puts "The loop is beginning again ..."
+    puts "Loop counter: #{loop_counter}"
+    puts "You're doing a great job!"
+    response = gets.chomp
+    puts "Response from user: #{response}"
+    if response == "I am doing a great job!"
+        puts "Response condition matched, exiting loop."
+        break
+    end
+    loop_counter += 1
+end
