@@ -41,4 +41,9 @@ puts "Does client have cats?"
 client_cats = gets.chomp
 insert_cats = client[:cats] = client_cats
 
-p client
+puts "Name: #{client[:name]}"
+puts "Age: #{client[:age]}"
+puts "# of Children: #{client[:children]}"
+puts "Decor Theme: #{client[:decor]}"
+puts "Dogs: #{client[:dogs]}"
+puts "Cats: #{client[:cats]}"
