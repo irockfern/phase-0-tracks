@@ -99,5 +99,5 @@ def sort(arr)
   puts "Sorted array"
   puts arr
 end
-
+ 
 p sort(nums_array)
