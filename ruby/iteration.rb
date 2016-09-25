@@ -26,6 +26,14 @@ backpack.each do |items|
 	jansport << items.next
 end
 
+# puts "After .each call:"
+# p backpack
+# p jansport
+
+animal_sounds.each do |animal, sound|
+	2.times {puts "The #{animal} says #{sound}"}
+end
+
 puts "After .each call:"
 p backpack
 p jansport
