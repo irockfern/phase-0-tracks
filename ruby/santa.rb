@@ -17,7 +17,7 @@ class Santa
 
 	#setters
 	def celebrate_birthday=(new_age)
-		@age = new_age + 1
+		@age = new_age
 	end
 
 	def get_mad_at=(reindeer)
@@ -38,7 +38,6 @@ class Santa
 	end
 end
 
-# santa = Santa.new("male", "white")
 # puts santa.speak
 # puts santa.eat_milk_and_cookies("oreo")
 
@@ -55,4 +54,9 @@ end
 santas.each do |iterate|
 	iterate
 end
+
+santa = Santa.new("male", "white")
+p santa.celebrate_birthday= + 1
+p santa.age
+p santa.ethnicity
 
