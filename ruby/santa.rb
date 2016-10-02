@@ -16,9 +16,9 @@ class Santa
 	end
 end
 
-# santa = Santa.new
-# puts santa.speak
-# puts santa.eat_milk_and_cookies("oreo")
+santa = Santa.new
+puts santa.speak
+puts santa.eat_milk_and_cookies("oreo")
 
 # santas = []
 # santas << Santa.new("agender", "black")
@@ -33,13 +33,13 @@ santas = []
 
 genders = ["male", "female", "trans", "cis", "gender fluid", "decline to state"]
 
-ethnicities = ["Black", "Asian", "white", "Native American", "decline to state"]
+ethnicities = ["Black", "Asian", "white", "Native American", "Latino", "decline to state"]
 
 genders.length.times do |i|
   santas << Santa.new(genders[i], ethnicities[i])
 end
 
 santas.each do |iterate|
-	iterate.speak
+	iterate
 end
 
