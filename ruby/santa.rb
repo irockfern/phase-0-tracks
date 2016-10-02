@@ -29,17 +29,17 @@ end
 # santas << Santa.new("gender fluid", "Mystical Creature (unicorn)")
 # santas << Santa.new("N/A", "N/A")
 
-# santas.each do |iterate|
-# 	iterate.speak
-# end
-
 santas = []
 
-example_genders = ["agender", "female", "bigender", "male", "female", "gender fluid", "N/A"]
+genders = ["male", "female", "trans", "cis", "gender fluid", "decline to state"]
 
-example_ethnicities = ["black", "Latino", "white", "Japanese-African", "prefer not to say", "Mystical Creature (unicorn)", "N/A"]
+ethnicities = ["Black", "Asian", "white", "Native American", "decline to state"]
 
-example_genders.length.times do |i|
-  santas << Santa.new(example_genders[i], example_ethnicities[i])
+genders.length.times do |i|
+  santas << Santa.new(genders[i], ethnicities[i])
+end
+
+santas.each do |iterate|
+	iterate.speak
 end
 
