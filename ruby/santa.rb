@@ -16,11 +16,26 @@ class Santa
 	end
 
 	#setters
-	def celebrate_birthday=(age)
-		@age = age + 1
+	def celebrate_birthday=(new_age)
+		@age = new_age + 1
 	end
 
-	
+	def get_mad_at=(reindeer)
+		@reindeer_ranking = reindeer.rotate
+	end
+
+	def reassign_gender=(new_gender)
+		@gender = new_gender
+	end
+
+	#getters
+	def age
+		@age
+	end
+
+	def ethnicity
+		@ethnicity
+	end
 end
 
 # santa = Santa.new("male", "white")
