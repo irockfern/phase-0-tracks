@@ -41,6 +41,10 @@ end
 # input:
 # steps:
 # output:
+def update_item_quantity(item, quantity)
+    item[quantity][3]
+    item
+end
 
 # Method to print a list and make it look pretty
 # input:
@@ -51,3 +55,4 @@ end
 grocery_list = create_list("carrots apples cereal pizza")
 add_item_to_list(grocery_list, "peaches")
 remove_item_from_list(grocery_list, "apples")
+update_item_quantity(grocery_list[:carrots], 2)
