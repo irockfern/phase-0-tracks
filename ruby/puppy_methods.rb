@@ -43,14 +43,28 @@ class Kitty
   end
 end
 
-
 puppy = Puppy.new
-p puppy.speak(2)
-p puppy.fetch('ball')
-p puppy.rollover
-p puppy.play_dead
-p puppy.dog_years(3)
-
 kitty = Kitty.new
-p kitty.meow(2)
-p kitty.purr
+
+counter = 0
+arr = []
+
+while counter <= 50
+  p kitty
+  arr.push(kitty)
+  counter +=1
+end
+
+arr.each do |iterate|
+  puts iterate.meow(1)
+  puts iterate.purr
+end
+
+# p puppy.speak(2)
+# p puppy.fetch('ball')
+# p puppy.rollover
+# p puppy.play_dead
+# p puppy.dog_years(3)
+
+# p kitty.meow(2)
+# p kitty.purr
